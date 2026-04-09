@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Science School Gojra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="bg-mesh"></div>
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="TSS Logo">
+            TSS <span>GOJRA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="btn-3d">Enroll Now</button>
+        <div class="menu-toggle">
+            <i class="ph ph-list"></i>
+        </div>
+    </nav>
+
+    <main style="margin-top: 80px;">
+        <!-- Leadership Section -->
+        <section style="text-align: center;">
+            <h2 class="section-title">Our Leadership</h2>
+            <p style="color: var(--text-muted);">Guided by visionary leaders in education.</p>
+            
+            <div class="grid-info">
+                <div class="glass card-3d admin-card">
+                    <div class="avatar"><i class="ph ph-user-gear"></i></div>
+                    <h3>Awais Khan</h3>
+                    <p class="role">Director</p>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">Leading the vision of academic excellence and futuristic education in Gojra. Awais Khan is committed to bringing modern scientific methodology to the grassroots level.</p>
+                </div>
+                <div class="glass card-3d admin-card">
+                    <div class="avatar"><i class="ph ph-chalkboard-teacher"></i></div>
+                    <h3>Riasat Javed</h3>
+                    <p class="role">Principal</p>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">With decades of experience in educational management, Riasat Javed ensures that every student at TSS Gojra receives personal attention and the best moral grooming.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission -->
+        <section>
+            <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+                <h2 class="section-title">Vision & Facilities</h2>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 50px;">To create a learning environment where science and ethics go hand in hand.</p>
+                
+                <div class="grid-info" style="margin-top: 30px;">
+                    <div class="glass card-3d" style="padding:30px;">
+                        <i class="ph ph-flask" style="font-size: 3rem; color: var(--accent);"></i>
+                        <h4 style="margin-top: 15px;">Science Lab</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 10px;">Fully equipped with chemical and physical apparatus for hands-on research.</p>
+                    </div>
+                    <div class="glass card-3d" style="padding:30px;">
+                        <i class="ph ph-desktop" style="font-size: 3rem; color: var(--primary);"></i>
+                        <h4 style="margin-top: 15px;">IT Center</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 10px;">Modern systems with high-speed internet to teach coding and digital creation.</p>
+                    </div>
+                    <div class="glass card-3d" style="padding:30px;">
+                        <i class="ph ph-books" style="font-size: 3rem; color: var(--accent);"></i>
+                        <h4 style="margin-top: 15px;">E-Library</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 10px;">Digital access to thousands of educational resources and global literature.</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 60px; text-align: center;">
+                    <h2 class="section-title">Character Building</h2>
+                    <p style="color: var(--text-muted); max-width: 800px; margin: 0 auto;">Beyond academics, we focus on **Namaz, Ethics, and Moral values** to ensure our students are well-rounded individuals ready for global leadership.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="logo.png" alt="The Science School Logo" class="footer-logo">
+        <p style="font-weight: 600; font-size: 1.2rem; margin-bottom: 5px;">The Science School Gojra</p>
+        <p style="font-size: 0.9rem; opacity: 0.8;">Made by <span style="color: var(--accent); font-weight: 600;">Noshahi Developers Inc</span>. All rights reserved. &copy; 2026.</p>
+        <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+            <i class="ph ph-facebook-logo" style="font-size: 1.5rem; cursor: pointer;"></i>
+            <i class="ph ph-instagram-logo" style="font-size: 1.5rem; cursor: pointer;"></i>
+            <i class="ph ph-linkedin-logo" style="font-size: 1.5rem; cursor: pointer;"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
